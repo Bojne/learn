@@ -23,11 +23,6 @@ However, without anaconda environment, common command won't work (pip install fo
 
 Final result: 
 
-![](/terminal-v1.png)
 
-Version 1 
-
-![](/terminal-v2.png)
-
-Version 2 
-
+![](terminal-v1.png)
+![](terminal-v2.png)
