@@ -23,4 +23,5 @@ However, without anaconda environment, common command won't work (pip install fo
 
 Final result: 
 
-![](/terminal.png)
+
+![](terminal.png)
