@@ -1,0 +1,1 @@
+{"id":"cabfcea7-9fde-47a6-b87c-6735c9759cdf","space":21244,"runtime":"python3.9","name":"github_monitor","path":"x0trmo","project":"a06e9ja3","account":"144798365827","region":"eu-central-1","deps":["flask","httpx"],"envs":null,"public":true,"log_level":"debug","cron":""}
