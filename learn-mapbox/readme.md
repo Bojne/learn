@@ -12,4 +12,5 @@ I thought about using envrionment code, or even via a serverless function. But e
 
 In all ways, the key will be there if I do not adopt any node envrionment. 
 
-Eventually I just let it go public, since I think the key is not too sensitive. I didn't put credit card with Mapbox so I hope things are fine 🤞 
+Eventually I just let it go public, since I think the key is not too sensitive. I didn't put credit card with Mapbox so I hope things are fine 🤞
+
