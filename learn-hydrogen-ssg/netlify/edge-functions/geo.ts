@@ -21,4 +21,3 @@ export default async (request: Request, context: Context) => {
     geo: context.geo,
     header: request.headers.get("x-nf-geo"),
   });
-};
