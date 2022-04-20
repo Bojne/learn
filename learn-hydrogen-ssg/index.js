@@ -18,8 +18,8 @@ const page = ({ title, data, head }) => `
     const map = new mapboxgl.Map({
         container: 'map', // container ID
         style: 'mapbox://styles/mapbox/streets-v11', // style URL
-        center: [121.597366, 25.105497], // starting position [lng, lat]
-        zoom: 11 // starting zoom
+        center: [121.5484, 22.0436], // starting position [lng, lat]
+        zoom: 12 // starting zoom
     });
     </script>
   <body>
