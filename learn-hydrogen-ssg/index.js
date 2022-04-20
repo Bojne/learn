@@ -14,7 +14,7 @@ const page = ({ title, data, head }) => `
   <body>
     <div id="map"></div>
     <script>
-    mapboxgl.accessToken = ${data.MapBoxKey};
+    mapboxgl.accessToken = "${data.MapBoxKey}";
     const map = new mapboxgl.Map({
         container: 'map', // container ID
         style: 'mapbox://styles/mapbox/streets-v11', // style URL
