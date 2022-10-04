@@ -1,0 +1,42 @@
+###
+### A complete description of a Prefect Deployment for flow 'GitHub Stars'
+###
+name: get-github-stars
+description: null
+version: 78531f43bd8990816fc83e5bf365bdba
+# The work queue that will handle this deployment's runs
+work_queue_name: test
+tags: []
+parameters: {}
+schedule: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: GitHub Stars
+manifest_path: null
+storage: null
+path: /Users/yhh/personal-gh/learn/learn-prefect
+entrypoint: flow.py:github_stars
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties:
+    repos:
+      title: repos
+      type: array
+      items:
+        type: string
+  required:
+  - repos
+  definitions: null

@@ -1,0 +1,36 @@
+###
+### A complete description of a Prefect Deployment for flow 'my-favorite-function'
+###
+name: magic_function
+description: null
+version: 8c9151cde2d91daa2e8cd382ea393489
+# The work queue that will handle this deployment's runs
+work_queue_name: yhh-mbp
+tags: []
+parameters: {}
+schedule: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: my-favorite-function
+manifest_path: null
+storage: null
+path: /Users/yhh/personal-gh/learn/learn-prefect
+entrypoint: basic.py:my_favorite_function
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
